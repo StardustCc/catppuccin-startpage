@@ -21,18 +21,18 @@ const default_configuration = {
     {
       label: "Shanghai",
       timezone: "Asia/Shanghai",
-      format: "",
+      format: "z",
       icon_color: palette.peach,
     },
   ],
   search: {
     engines: {
-      p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
-      d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
-      g: ["https://google.com/search?q=", "Google"],
-      b: ["https://bing.com/search?q=", "Bing"],
+      bing: ["https://bing.com/search?q=", "Bing"],
+      perplexity: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
+      duckduckgo: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
+      google: ["https://google.com/search?q=", "Google"],
     },
-    default: "b",
+    default: "bing",
   },
   keybindings: {
     "s": "search-bar",
