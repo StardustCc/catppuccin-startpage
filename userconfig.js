@@ -2,26 +2,26 @@
 
 // Define preferred palette for light and dark mode
 // Available themes: latte, frappe, mocha, macchiato
-const preferredLightTheme = latte;
-const preferredDarkTheme = macchiato;
+const preferredLightTheme = mocha;
+const preferredDarkTheme = mocha;
 
 let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Shanghai",
     scale: "C",
   },
   clock: {
-    format: "k:i p",
+    format: "h:i:s p A Y/m/d",
     icon_color: palette.maroon,
   },
   additionalClocks: [
     {
-      label: "zh_CN",
+      label: "Shanghai",
       timezone: "Asia/Shanghai",
-      format: "h:i",
+      format: "",
       icon_color: palette.peach,
     },
   ],
@@ -32,7 +32,7 @@ const default_configuration = {
       g: ["https://google.com/search?q=", "Google"],
       b: ["https://bing.com/search?q=", "Bing"],
     },
-    default: "d",
+    default: "b",
   },
   keybindings: {
     "s": "search-bar",
@@ -51,8 +51,8 @@ const default_configuration = {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
+              name: "fmhy",
+              url: "https://fmhy.net/",
               icon: "droplet-bolt",
               icon_color: palette.green,
             },
