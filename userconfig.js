@@ -97,32 +97,14 @@ const default_configuration = {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
-              icon_color: palette.green,
-            },
-            {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
-              icon_color: palette.peach,
-            },
-            {
               name: "куток",
               url: "https://kutok.io",
               icon: "border-radius",
               icon_color: palette.red,
             },
             {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
-              icon_color: palette.blue,
-            },
-            {
-              name: "village",
-              url: "https://www.village.com.ua",
+              name: "rutracker",
+              url: "https://rutracker.org/forum/index.php",
               icon: "home-2",
               icon_color: palette.mauve,
             },
@@ -153,6 +135,12 @@ const default_configuration = {
               name: "stackoverflow",
               url: "https://stackoverflow.com",
               icon: "brand-stackoverflow",
+              icon_color: palette.red,
+            },
+            {
+              name: "linuxdo",
+              url: "https://linux.do/",
+              icon: "microscope",
               icon_color: palette.red,
             },
           ],
@@ -274,12 +262,12 @@ const default_configuration = {
           ],
         },
         {
-          name: "video",
+          name: "entertainment",
           links: [
             {
-              name: "anilist",
-              url: "https://anilist.co/home",
-              icon: "brand-funimation",
+              name: "bilibili",
+              url: "https://www.bilibili.com/",
+              icon: "brand-bilibili",
               icon_color: palette.green,
             },
             {
@@ -289,15 +277,15 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
+              name: "dabmusic",
+              url: "https://dabmusic.xyz/",
+              icon: "music",
               icon_color: palette.red,
             },
             {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
+              name: "111477",
+              url: "https://a.111477.xyz/",
+              icon: "movie",
               icon_color: palette.blue,
             },
           ],
