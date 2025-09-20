@@ -57,9 +57,38 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
+              name: "survivorlibrary",
+              url: "https://www.survivorlibrary.com/",
+              icon: "book-2",
+              icon_color: palette.green,
+            },
+            {
               name: "musicForProgramming();",
               url: "https://musicforprogramming.net",
               icon: "binary-tree",
+              icon_color: palette.peach,
+            },
+          ],
+        },
+        {
+          name: "ai",
+          links: [
+            {
+              name: "lmarena",
+              url: "https://lmarena.ai/",
+              icon: "input-ai",
+              icon_color: palette.peach,
+            },
+            {
+              name: "yupp",
+              url: "https://yupp.ai/",
+              icon: "mail-ai",
+              icon_color: palette.peach,
+            },
+            {
+              name: "ish",
+              url: "https://ish.junioralive.in/",
+              icon: "photo-ai",
               icon_color: palette.peach,
             },
           ],
@@ -122,6 +151,12 @@ const default_configuration = {
             {
               name: "github",
               url: "https://github.com",
+              icon: "brand-github",
+              icon_color: palette.green,
+            },
+            {
+              name: "github-ranking",
+              url: "https://evanli.github.io/Github-Ranking/",
               icon: "brand-github",
               icon_color: palette.green,
             },
@@ -269,6 +304,17 @@ const default_configuration = {
               url: "https://fitgirl-repacks.site/",
               icon: "brand-fortnite",
               icon_color: palette.red,
+            }
+          ],
+        },
+        {
+          name: "anime",
+          links: [
+            {
+              name: "tokyoinsider",
+              url: "https://www.tokyoinsider.com/",
+              icon: "soup",
+              icon_color: palette.green,
             }
           ],
         },
