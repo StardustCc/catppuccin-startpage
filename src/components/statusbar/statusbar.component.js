@@ -221,7 +221,7 @@ class Statusbar extends Component {
         <div id="tabs">
             <cols>
                 <button class="+ fastlink">
-                  <img class="fastlink-icon" src="src/img/favicon.png"/>
+                  <img class="fastlink-icon" src="src/img/cc.png" alt="favicon"/>
                 </button>
                 <ul class="- indicator"></ul>
                 <div class="+ widgets col-end">
@@ -339,7 +339,7 @@ class Statusbar extends Component {
     const categoriesCount = this.externalRefs.categories.length;
 
     for (let i = 0; i <= categoriesCount; i++) {
-      this.refs.indicator.innerHTML += `<li tab-index=${i} ${i == 0 ? "active" : ""}></li>`;
+      this.refs.indicator.innerHTML += `<li tab-index=${i} ${i === 0 ? "active" : ""}></li>`;
     }
   }
 
