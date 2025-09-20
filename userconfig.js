@@ -233,6 +233,23 @@ const default_configuration = {
           ],
         },
         {
+          name: "reading",
+          links: [
+            {
+              name: "annas-archive",
+              url: "https://annas-archive.org/",
+              icon: "brand-booking",
+              icon_color: palette.green,
+            },
+            {
+              name: "z-lib",
+              url: "https://z-lib.gd/",
+              icon: "book",
+              icon_color: palette.peach,
+            }
+          ],
+        },
+        {
           name: "gaming",
           links: [
             {
@@ -286,6 +303,18 @@ const default_configuration = {
               name: "111477",
               url: "https://a.111477.xyz/",
               icon: "movie",
+              icon_color: palette.blue,
+            },
+            {
+              name: "1337x",
+              url: "https://1337x.to/home/",
+              icon: "device-audio-tape",
+              icon_color: palette.blue,
+            },
+            {
+              name: "ext",
+              url: "https://ext.to/browse/?cat=1",
+              icon: "device-computer-camera",
               icon_color: palette.blue,
             },
           ],

@@ -132,8 +132,8 @@ class Tabs extends Component {
   style() {
     return `
       status-bar {
-          bottom: -70px;
-          height: 32px;
+          bottom: -40px;
+          height: 40px;
           background: ${CONFIG.palette.base};
           border-radius: 4px;
           box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
@@ -150,9 +150,9 @@ class Tabs extends Component {
 
       #panels {
           border-radius: 5px 0 0 5px;
-          width: 90%;
-          max-width: 1200px;
-          height: 450px;
+          width: 100%;
+          max-width: 1300px;
+          height: 700px;
           right: 0;
           left: 0;
           top: 0;
