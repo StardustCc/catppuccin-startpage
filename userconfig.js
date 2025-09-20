@@ -2,8 +2,8 @@
 
 // Define preferred palette for light and dark mode
 // Available themes: latte, frappe, mocha, macchiato
-const preferredLightTheme = mocha;
-const preferredDarkTheme = mocha;
+const preferredLightTheme = frappe;
+const preferredDarkTheme = frappe;
 
 let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
@@ -45,7 +45,7 @@ const default_configuration = {
   tabs: [
     {
       name: "routine",
-      background_url: "src/img/banners/banner_09.gif",
+      background_url: "src/img/banners/banner_13.gif",
       categories: [
         {
           name: "bookmarks",
@@ -114,7 +114,7 @@ const default_configuration = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/banner_07.gif",
+      background_url: "src/img/banners/banner_17.gif",
       categories: [
         {
           name: "development",
@@ -207,7 +207,7 @@ const default_configuration = {
     },
     {
       name: "chill",
-      background_url: "src/img/banners/banner_08.gif",
+      background_url: "src/img/banners/banner_18.gif",
       categories: [
         {
           name: "social media",
