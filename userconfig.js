@@ -259,23 +259,17 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "steam",
-              url: "https://store.steampowered.com",
+              name: "steamrip",
+              url: "https://steamrip.com/",
               icon: "brand-steam",
               icon_color: palette.peach,
             },
             {
-              name: "epicgames",
-              url: "https://store.epicgames.com",
+              name: "fitgirl-repacks",
+              url: "https://fitgirl-repacks.site/",
               icon: "brand-fortnite",
               icon_color: palette.red,
-            },
-            {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
-              icon_color: palette.blue,
-            },
+            }
           ],
         },
         {
