@@ -1,4 +1,3 @@
-
 // Component for rendering navigation links within tabs
 class Links extends Component {
   /**
@@ -29,30 +28,30 @@ class Links extends Component {
    * @returns {string} HTML string containing all links
    */
   static getAll(tabName, tabs) {
-    const { categories } = tabs.find((f) => f.name === tabName);
+    const {categories} = tabs.find((f) => f.name === tabName);
 
     return `
       ${categories
-        .map(({ name, links }) => {
-          return `
+      .map(({name, links}) => {
+        return `
           <li>
             <h1>${name}</h1>
               <div class="links-wrapper">
               ${links
-              .map(
-                (link) => `
+          .map(
+            (link) => `
                   <div class="link-info">
                     <a href="${link.url}" target="_blank">
                       ${Links.getIcon(link)}
                       ${link.name ? `<p class="link-name">${link.name}</p>` : ""}
                     </a>
                 </div>`,
-              )
-              .join("")}
+          )
+          .join("")}
             </div>
           </li>`;
-        })
-        .join("")}
+      })
+      .join("")}
     `;
   }
 }
@@ -85,13 +84,13 @@ class Category extends Component {
   static getAll(tabs) {
     return `
       ${tabs
-        .map(({ name, background_url }, index) => {
-          return `<ul class="${name}" ${Category.getBackgroundStyle(background_url)} ${index == 0 ? "active" : ""}>
+      .map(({name, background_url}, index) => {
+        return `<ul class="${name}" ${Category.getBackgroundStyle(background_url)} ${index == 0 ? "active" : ""}>
             <div class="banner"></div>
             <div class="links">${Links.getAll(name, tabs)}</div>
           </ul>`;
-        })
-        .join("")}
+      })
+      .join("")}
     `;
   }
 }
@@ -257,11 +256,15 @@ class Tabs extends Component {
       .categories ul::after {
           content: attr(class);
           position: absolute;
-          display: flex;
+          display: block; /* 不再用 flex */
           text-transform: uppercase;
           overflow-wrap: break-word;
-          width: 25px;
-          height: 250px;
+          writing-mode: vertical-rl;     /* 竖排文字，从上到下，右到左 */
+          text-orientation: upright;     /* 每个字保持直立 */
+          white-space: normal;           /* 正常换行 */
+          width: auto;
+          height: auto;                 /* 高度自适应 */
+          max-height: 300px;             /* 最多显示 250px */
           padding: 1em;
           margin: auto;
           border-radius: 5px;
