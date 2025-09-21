@@ -74,6 +74,17 @@ const default_configuration = {
           name: "ai",
           links: [
             {
+              name: "fmhy-ai",
+              url: "https://fmhy.net/ai#multiple-model-sites",
+              icon: "file-text-ai",
+              icon_color: palette.peach,
+            },
+            {
+              name: "duckduckgo",
+              url: "https://duckduckgo.com/",
+              icon: "file-text-ai",
+              icon_color: palette.peach,
+            },{
               name: "lmarena",
               url: "https://lmarena.ai/",
               icon: "input-ai",
