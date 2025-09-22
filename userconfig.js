@@ -63,6 +63,18 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
+              name: "snowbin",
+              url: "https://pastes.fmhy.net/",
+              icon: "cloud-snow",
+              icon_color: palette.green,
+            },
+            {
+              name: "searx",
+              url: "https://searx.fmhy.net/",
+              icon: "device-desktop-search",
+              icon_color: palette.green,
+            },
+            {
               name: "musicForProgramming();",
               url: "https://musicforprogramming.net",
               icon: "binary-tree",
@@ -217,6 +229,22 @@ const default_configuration = {
               url: "https://adventofcode.com",
               icon: "brand-linktree",
               icon_color: palette.blue,
+            },
+          ],
+        },{
+          name: "learning",
+          links: [
+            {
+              name: "selectstarsql",
+              url: "https://selectstarsql.com/",
+              icon: "sql",
+              icon_color: palette.peach,
+            },
+            {
+              name: "openvim",
+              url: "https://openvim.com/",
+              icon: "code-asterix",
+              icon_color: palette.red,
             },
           ],
         },
